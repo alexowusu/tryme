@@ -1,8 +1,16 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { NgModule, Component } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router'; 
+import { ClientListComponent } from './client-list/client-list.component';
+import { AddClientComponent } from './add-client/add-client.component';
+import { ProjectListComponent } from './project-list/project-list.component';
+import { AddProjectComponent } from './add-project/add-project.component';
 
-
-const routes: Routes = [];
+const routes: Routes = [
+  { path : 'clientslist', component : ClientListComponent},
+  {path: 'addclients', component: AddClientComponent},
+{path: 'ProjectList', component: ProjectListComponent},
+{path: 'AddProject', component: AddProjectComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
