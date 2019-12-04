@@ -11,6 +11,7 @@ import { AddProjectComponent } from './add-project/add-project.component';
 // import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './signin/signin.component';
 import { CustomersComponent } from './customers/customers.component';
+import { AddCustomersComponent } from './add-customers/add-customers.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CustomersComponent } from './customers/customers.component';
     AddProjectComponent,
     // HomeComponent,
     SigninComponent,
-    CustomersComponent
+    CustomersComponent,
+    AddCustomersComponent
   ],
   imports: [
     BrowserModule,
