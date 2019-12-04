@@ -4,7 +4,7 @@
     
     <h2>Add New Customer</h2>
     <div class="form-container">
-        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <form [FormGroup]="registerForm" (ngSubmit)="onSubmit()">
             <div class="form-group row">
                 <label for="name" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
