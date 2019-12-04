@@ -7,6 +7,7 @@ import { ClientListComponent } from './client-list/client-list.component';
 import { AddClientComponent } from './add-client/add-client.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { AddProjectComponent } from './add-project/add-project.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AddProjectComponent } from './add-project/add-project.component';
     ClientListComponent,
     AddClientComponent,
     ProjectListComponent,
-    AddProjectComponent
+    AddProjectComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
