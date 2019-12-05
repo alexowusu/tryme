@@ -1,10 +1,10 @@
-<!-- <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <h1 class="h2">New Customers</h1>
 </div>
 
 <h2>Add New Customer</h2>
 <div class="form-container">
-    <form>
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
         <div class="form-group row">
             <label for="name" class="col-sm-2 col-form-label">Name</label>
             <div class="col-sm-10">
@@ -30,9 +30,8 @@
             </div>
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-lg btn-primary">Submit</button>
-            <button class="btn btn-lg btn-secondary" type="reset" (click)="onReset()">Cancel</button>
+            <button type="submit" class="btn btn-lg btn-primary">Add</button>
+            <button class="btn btn-lg btn-secondary" type="reset" (click)="onReset()">Reset</button>
         </div>
     </form>
-</div> -->
-<p>this</p>
+</div>
