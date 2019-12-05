@@ -19,12 +19,14 @@ body{
   height: 100%;
 }
 
+.main{
+  position: absolute;
+  top: 25%;
+}
+
 .imgbg{
     background: url('assets/b.jpg');
     height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 @media screen and (max-width: 767px) {
   .sidenav {
