@@ -6,12 +6,13 @@ import { ProjectListComponent } from './project-list/project-list.component';
 import { SigninComponent } from './signin/signin.component';
 import { CustomersComponent } from './customers/customers.component';
 import { AddCustomersComponent } from './add-customers/add-customers.component';
+import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
  {path: 'customers',component:CustomersComponent},
   {path: 'addclients', component: AddClientComponent},
 {path: 'ProjectList', component: ProjectListComponent},
-
+{path: 'products',component: ProductsComponent},
 {path: 'signin', component:SigninComponent},
 {path:'add-customers',component:AddCustomersComponent}
 ];
